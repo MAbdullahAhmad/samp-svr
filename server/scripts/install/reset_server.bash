@@ -11,4 +11,5 @@ cd $ROOT
 rm -rf ./samp03
 
 # Install Server
-tar -xvf ./server/dist/archives/samp037svr.tar.gz
+tar -xvf ./dist/archives/samp037svr.tar.gz
+cp ./configs/1-basic.cfg ./samp03/server.cfg
